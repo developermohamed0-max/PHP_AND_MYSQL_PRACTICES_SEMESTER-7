@@ -11,6 +11,18 @@ This read-me file outlines the purpose of each chapter, its learning objectives,
 ### Chapter overview
 This chapter introduces web application development and explains the role of PHP in creating dynamic and interactive web pages. It also reviews how browsers and web servers communicate and introduces the tools needed to run PHP locally.
 
+### Definitions
+- **PHP:** PHP is a server-side scripting language used to create dynamic web pages and handle backend logic.
+- **MySQL:** MySQL is a database management system used to store and manage data for web applications.
+- **HTTP:** HyperText Transfer Protocol is the communication protocol used by browsers and web servers to exchange requests and responses.
+- **HTML:** HyperText Markup Language is the standard language used to structure web pages and display content in a browser.
+- **Client:** A client is a device or browser that requests information or services from a server.
+- **Server:** A server is a system that receives client requests and sends back the required data or web page.
+- **Web page request/response:** A request is sent when a browser asks the server for a page, and a response is the page or data returned by the server.
+- **XAMPP:** XAMPP is a local development package that includes Apache, MySQL, PHP, and other tools needed to run PHP applications on a computer.
+- **Document root:** The document root is the folder on the server where website files are stored and served from, such as `C:/xampp/htdocs`.
+- **Localhost:** Localhost is the local address used to view a web application running on the same computer.
+
 ### Chapter objectives
 By the end of this chapter, you should be able to:
 
@@ -38,13 +50,17 @@ By the end of this chapter, you should be able to:
 11. **Your first page and using a program editor** — the `index.php` example and Visual Studio Code.
 
 ### Important terms
-- **PHP:** PHP: Hypertext Preprocessor; a server-side scripting language for dynamic web pages.
-- **HTTP:** A communication standard for requests and responses between a browser and a web server.
-- **HTML:** A markup language for documents displayed in a browser.
-- **Client:** The computer or browser that requests a service or web page.
-- **Server:** The system that receives a request and sends a response.
-- **XAMPP:** A local development environment containing tools used to run and test PHP applications.
-- **Document root:** The server directory from which local website files are served; for XAMPP, the slides give `C:/xampp/htdocs`.
+- **PHP:** PHP stands for Hypertext Preprocessor. It is a server-side scripting language used to create dynamic web pages and process data.
+- **HTTP:** HyperText Transfer Protocol is the rule set used by browsers and servers to communicate over the web.
+- **HTML:** HyperText Markup Language is used to create the structure and content of a web page that appears in a browser.
+- **Client:** A client is a user device or browser that sends a request to a server.
+- **Server:** A server is a computer program or machine that receives requests and returns the necessary result.
+- **Browser:** A browser is an application such as Chrome or Edge that displays web pages to users.
+- **XAMPP:** XAMPP is a package that installs Apache, MySQL, PHP, and tools needed for local web development.
+- **Apache:** Apache is the web server software that serves web pages locally or on the internet.
+- **MySQL:** MySQL is a database system used to store and organize data for web applications.
+- **Document root:** The document root is the folder where website files are stored and served; in XAMPP, this is usually `C:/xampp/htdocs`.
+- **Localhost:** Localhost is the address used to access a web application running on the same computer.
 
 ### Practical work / self-check
 - Describe the steps from entering a URL to seeing a page in the browser.
@@ -59,6 +75,19 @@ By the end of this chapter, you should be able to:
 
 ### Chapter overview
 This chapter introduces the basic syntax and building blocks of PHP. It covers output, quotation marks, comments, variables, data types, constants, and operators, then introduces control structures. The requested coverage ends at the `if...else` statement.
+
+### Definitions
+- **PHP script:** A PHP script is a file containing PHP code, usually saved with the `.php` extension.
+- **Statement:** A statement is an instruction in a program; in PHP, a statement usually ends with a semicolon.
+- **Variable:** A variable is a named storage place in memory used to hold data, and it begins with `$` in PHP.
+- **Data type:** A data type defines the kind of value stored, such as integer, float, string, or boolean.
+- **String:** A string is a sequence of characters used to store text.
+- **Constant:** A constant is a value that remains fixed during program execution and is defined once.
+- **Operator:** An operator is a symbol that performs a task such as addition, comparison, or assignment.
+- **Condition:** A condition is an expression that evaluates to either true or false.
+- **Control structure:** A control structure decides the order in which statements are executed.
+- **If statement:** An `if` statement executes code only when a condition is true.
+- **If...else statement:** An `if...else` statement executes one block of code when the condition is true and another block when it is false.
 
 ### Chapter objectives
 By the end of the covered material, you should be able to:
@@ -92,13 +121,16 @@ By the end of the covered material, you should be able to:
 13. **Conditional control structures: `if` and `if...else`** — conditions and choosing which statement to execute.
 
 ### Important terms
-- **Statement:** An instruction in a PHP program; the slides note that PHP statements end with a semicolon.
-- **Variable:** A named place to store a value, written with `$` before its name.
-- **Data type:** The kind of value stored, such as integer, float, string, or boolean.
-- **Constant:** A named value that is not intended to change during program execution.
-- **Operator:** A symbol or construct used to perform an operation on values.
-- **Condition:** An expression evaluated as true or false to guide a conditional statement.
-- **Conditional control structure:** A structure that changes the program's execution path based on a condition.
+- **Statement:** A statement is a complete instruction in a PHP program, and it usually ends with a semicolon.
+- **Variable:** A variable is a named place used to store data in memory. In PHP, variables begin with `$`.
+- **Data type:** A data type is the category of a value, such as integer, float, string, or boolean.
+- **String:** A string is text data stored in quotes, such as "Hello" or 'PHP'.
+- **Constant:** A constant is a value that does not change while the program runs.
+- **Operator:** An operator is a sign or symbol used to perform tasks like arithmetic, comparison, or assignment.
+- **Condition:** A condition is a logical expression that is evaluated as true or false.
+- **Conditional control structure:** This is a structure that allows code to run or skip depending on whether a condition is true.
+- **If statement:** An `if` statement executes code only when the condition is true.
+- **If...else statement:** An `if...else` statement chooses between two blocks of code based on a condition.
 
 ### Syntax examples to recognize
 
